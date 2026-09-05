@@ -19,7 +19,7 @@ class CustomAgent(Player):
     def __init__(self, *args, **kwargs):
         super().__init__(*args, team=team, **kwargs)
 
-    def chose_move(self, battle: AbstractBattle):
+    def choose_move(self, battle: AbstractBattle):
         """
         DO NOT EDIT THIS FUNCTION.
         """
