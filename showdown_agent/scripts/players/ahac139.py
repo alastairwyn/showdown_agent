@@ -1,3 +1,4 @@
+from poke_env.player import Player
 from poke_env.battle import AbstractBattle
 
 team = """
